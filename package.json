@@ -2,7 +2,7 @@
   "name": "next-apollo",
   "version": "2.0.8",
   "description": "React higher-order component for using the Apollo GraphQL client inside Next.js",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "prepublish": "npm run build",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/ads1018/next-apollo#readme",
   "files": [
-    "src"
+    "dist"
   ],
   "peerDependencies": {
     "next": "latest"
